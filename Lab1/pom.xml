@@ -5,14 +5,15 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.5.6</version>
+        <version>3.5.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.poly</groupId>
-    <artifactId>Lab1</artifactId>
+    <groupId>poly.edu</groupId>
+    <artifactId>TV00103_LAB1</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Lab1</name>
-    <description>Lab1</description>
+    <packaging>war</packaging>
+    <name>TV00103_LAB1</name>
+    <description>TV00103_LAB1</description>
     <url/>
     <licenses>
         <license/>
@@ -49,6 +50,11 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
