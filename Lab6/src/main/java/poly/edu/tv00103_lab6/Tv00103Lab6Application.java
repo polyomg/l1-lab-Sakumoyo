@@ -1,13 +1,13 @@
-package com.poly.lab6;
+package poly.edu.tv00103_lab6;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Lab6Application {
+public class Tv00103Lab6Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(Lab6Application.class, args);
+        SpringApplication.run(Tv00103Lab6Application.class, args);
     }
 
 }
